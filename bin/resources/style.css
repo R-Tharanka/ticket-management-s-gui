@@ -1,0 +1,90 @@
+/* General UI Styling */
+.root {
+    -fx-background-color: #f9f9f9; /* Light gray background */
+    -fx-padding: 20px;
+    -fx-font-family: "Arial";
+}
+
+/* Title Styling */
+.label-title {
+    -fx-font-size: 24px;
+    -fx-font-weight: bold;
+    -fx-text-fill: #007bff; /* Primary Blue */
+    -fx-padding: 20px;
+    -fx-alignment: center;
+}
+
+/* Panels (e.g., Configuration, Status) */
+.panel {
+    -fx-background-color: #ffffff; /* White card */
+    -fx-background-radius: 10px;
+    -fx-border-color: #e0e0e0;
+    -fx-border-radius: 10px;
+    -fx-padding: 15px;
+    -fx-effect: dropshadow(gaussian, rgba(0, 0, 0, 0.1), 10, 0, 0, 3);
+}
+
+/* Input Fields */
+.text-field {
+    -fx-background-color: #ffffff;
+    -fx-border-color: #c0c0c0;
+    -fx-border-radius: 5px;
+    -fx-padding: 8px;
+    -fx-font-size: 14px;
+}
+
+/* Buttons */
+.button {
+    -fx-font-size: 14px;
+    -fx-font-weight: bold;
+    -fx-border-radius: 5px;
+    -fx-padding: 10px 20px;
+    -fx-cursor: hand;
+}
+
+/* Primary Button */
+.button-primary {
+    -fx-background-color: #007bff;
+    -fx-text-fill: white;
+}
+
+.button-primary:hover {
+    -fx-background-color: #0056b3;
+}
+
+/* Start and Stop Buttons */
+.button-start {
+    -fx-background-color: #28a745; /* Green */
+    -fx-text-fill: white;
+}
+
+.button-stop {
+    -fx-background-color: #dc3545; /* Red */
+    -fx-text-fill: white;
+}
+
+.button-start:hover {
+    -fx-background-color: #218838;
+}
+
+.button-stop:hover {
+    -fx-background-color: #c82333;
+}
+
+/* Status Panel */
+.status-panel {
+    -fx-text-fill: #333333;
+    -fx-font-size: 16px;
+    -fx-padding: 10px;
+    -fx-background-color: #f1f1f1;
+    -fx-border-color: #d0d0d0;
+    -fx-border-radius: 5px;
+}
+
+/* System Logs and Ticket Pool */
+.log-area {
+    -fx-background-color: #ffffff;
+    -fx-border-color: #dcdcdc;
+    -fx-padding: 10px;
+    -fx-background-radius: 5px;
+}
